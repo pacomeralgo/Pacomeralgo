@@ -1,31 +1,37 @@
-html {
-    background-image: url(./img/4.png);
-}
+  html {
+      background-image: url(./img/4.png);
+  }
+
+  img.icono {
+      width: 100px;
+      margin-left: 60px;
+  }
+
+  h1 {
+      font-family: ;
+      color: rgb(255, 255, 255);
+      font-size: 70px;
+      margin-left: 30px;
+  }
+
+  a {
+      font-size: 40px;
+      text-decoration: none;
+      color: rgb(0, 255, 13);
+  }
 
 
-h1 {
-    font-family: ;
-    color: rgb(255, 255, 255);
-    font-size: 70px;
-    margin-left: 30px;
-}
 
-a {
-font-size: 40px;
-text-decoration: none;
-color: rgb(0, 255, 13);
-}
+  a:hover {
+      text-decoration: underline rgb(60, 255, 0);
+  }
 
-a:hover {
-    text-decoration: underline rgb(60, 255, 0);
-}
-
-div {
-    background-color: rgba(17, 5, 5, 0.7);
-    border: solid rgb(0, 255, 13) 4px;
-    width: 800px;
-    margin:0 auto;
-    margin-top: 20%;
-    padding-bottom: 50px;
-    padding-left: 30px;
-}
+  div {
+      background-color: rgba(17, 5, 5, 0.7);
+      border: solid rgb(0, 255, 13) 4px;
+      width: 800px;
+      margin: 0 auto;
+      margin-top: 20%;
+      padding-bottom: 50px;
+      padding-left: 30px;
+  }
