@@ -3,7 +3,7 @@
   }
 
   img.icono {
-      width: 100px;
+      width: 80px;
       margin-left: 60px;
   }
 
@@ -20,11 +20,21 @@
       color: rgb(0, 255, 13);
   }
 
-
-
-  a:hover {
-      text-decoration: underline rgb(60, 255, 0);
+  img.icono:hover {
+      width: 120px;
+      margin-left: 60px;
   }
+
+  div {
+      background-color: rgba(17, 5, 5, 0.7);
+      border: solid rgb(0, 255, 13) 4px;
+      width: 800px;
+      margin: 0 auto;
+      margin-top: 20%;
+      padding-bottom: 50px;
+      padding-left: 30px;
+  }
+
 
   div {
       background-color: rgba(17, 5, 5, 0.7);
