@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/carousel/">
+
+    <title>Tarta de queso </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+</head>
+<!-- NAVBAR
+================================================== -->
+
+<body style="background-color:#ffdd99">
+    <div class="navbar-wrapper">
+        <div class="container">
+
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Menú</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="./index.html"> Menú principal</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <!-- tipo1 -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="false">Para niños <span
+                                        class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./niños.html">Index</a></li>
+                                    <li><a href="./niños1.html">Huevo frito</a></li>
+                                    <li><a href="./niños2.html">Patatas con bacon </a></li>
+                                    <li><a href="./niños3.html">Nuggets </a></li>
+                                </ul>
+
+                            </li>
+                            <!-- tipo2 -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="false">Postres<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./postres.html">Index</a></li>
+                                    <li><a href="./postres1.html">Tarta sacher</a></li>
+                                    <li><a href="./postres2.html">Mousse de chocolate</a></li>
+                                    <li><a href="./postres3.html">Tarta de queso </a></li>
+                                </ul>
+
+                            </li>
+                            <!-- tipo3 -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="false">Para verano <span
+                                        class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./verano.html">Index</a></li>
+                                    <li><a href="./verano1.html">Espaguetis de calabacin </a></li>
+                                    <li><a href="./verano2.html">Ensalada César</a></li>
+                                    <li><a href="./verano3.html">Helado de yogur con frutas </a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="imagen/comida.jpg" alt="Chania">
+                <div class="carousel-caption">
+                    <h3>plato 1</h3>
+                    <p>descripcion breve</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="imagen/comida.jpg" alt="Chicago">
+                <div class="carousel-caption">
+                    <h3>plato 2</h3>
+                    <p>descripcion breve</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="imagen/comida.jpg" alt="New York">
+                <div class="carousel-caption">
+                    <h3>plato 3</h3>
+                    <p>descripcion breve</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="container">
+        <div class="text-center">
+
+            <h1>Postres </h1>
+        </div>
+    </div>
+
+    <div class="container marketing">
+
+        <!-- RECETAS (EN OTRA PAGINA HTML) -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Tarta de queso </h2>
+                <h4><span class="text-muted">Ingredientes</span></h4>
+                <ul class="lead">
+                    <li>2 paquetes de galletas tipo Maria, Digestive, oceanix … etc ( según queramos el grosor de la
+                        base emplearemos mas galletas o menos) </li>
+                    <li>100 gr. de mantequilla (temperatura ambiente) </li>
+                    <li>1 paquete de cacahuetes con miel (podéis echarle cualquier tipo de fruto seco)</li>
+                    <li>400 gr. de nata liquida para montar 35% materia grasa </li>
+                    <li>100 gr. de azúcar </li>
+                    <li>2 sobres de cuajada </li>
+                    <li>500 gr de queso de untar (estilo Queso Philadelphia)</li>
+                    <li>Mermelada</li>
+
+                </ul>
+                <h4><span class="text-muted">Instrucciones </span></h4>
+                <ol class="lead">
+                    <h5><span class="text-muted">Para hacer la base </span></h5>
+                    <li>Troceamos las galletas en pequeñas porciones para triturar en el robot de cocina con la
+                        trituradora eléctrica, hasta hacerlas polvo , una vez picadas mezclaremos con la mantequilla y
+                        los cacahuetes de miel previamente troceados. Formaremos una masa que nos sirva como base para
+                        la tarta de queso fría.
+                    </li>
+                    <li>Si queremos sacar la tarta por completo del molde, colocaremos un papel del hornear en la base
+                        del mismo tamaño que la base recortaremos con unas tijeras. Colocaremos la masa creada con las
+                        galletas y la mantequilla en la base del molde, cubriendo toda la base de forma homogénea, nos
+                        ayudaremos de una espátula de silicona o con la palma de la mano y los dedos iremos cubriendo
+                        toda la base del molde. Yo emplee otra base mas pequeña para aplastar bien la base y que quedara
+                        del todo nivelada.
+                    </li>
+                    <li>Dejaremos enfriar en la nevera hasta que este lo suficientemente resistente como para soportar
+                        el peso de nuestra tarta de queso. Unos 15/20 minutos serán suficientes para conseguir una base
+                        estable y firme.
+                    </li>
+                </ol>
+
+                <ol class="lead">
+                    <h5><span class="text-muted">Para hacer el relleno </span></h5>
+
+                    <li>Calentamos la nata en un cazo a fuego lento, iremos incorporando el azúcar y removemos con la
+                        nata, mezclaremos con el queso, incorporar las cuajadas, que habremos diluido en un poco de
+                        leche. Aconsejo seguir las recomendaciones del fabricante para diluir las cuajadas.
+                    </li>
+                    <li>Remover todos los ingredientes hasta su completa disolución, en el momento que la mezcla
+                        comience a hervir (es importante que la cuajada rompa a hervir, ya que si no lo hace, es posible
+                        que la tarta no cuaje) apartar inmediatamente para que no se pegue, el calor excesivo puede
+                        llegar a quemar la mezcla y dejar un sabor a quemado que la estropearía por completo.</li>
+                    <li> Una vez conseguida la mezcla para la tarta de queso fría, la echaremos en el molde que tenemos
+                        ya preparado con la base de galleta. Dejaremos enfriar en la nevera unas 6 horas aproximadamente
+                        y una vez cuajada la tarta de queso fría decoraremos la superficie de la tarta con nuestra
+                        cobertura preferida en este caso, mermelada de fresa.</li>
+
+                        <li>Desmoldar la tarta una vez que hayamos decorado la superficie y ya estará lista para servir</li>
+                </ol>
+
+
+
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto"
+                    alt="imagen">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <footer>
+            <p class="pull-right"><a href="#">Subir al Menú</a></p>
+            <p>&copy; 2020 Paco Meralgo, Inc &middot; By Juan Antonio Cuenca and Carlos Piña
+        </footer>
+
+    </div>
+    <!-- FIN RECETAS (EN OTRA PAGINA HTML) -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
+    </script>
+    <script>
+        window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/vendor/holder.min.js"></script>
+
+</body>
+
+</html>
